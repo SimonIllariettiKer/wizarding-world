@@ -1,0 +1,190 @@
+body {
+    background-color: burlywood;
+
+    nav {
+        background-color: black;
+        border: gold 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+
+        img {
+            margin-top: 25px;
+            height: 200px;
+
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 90%;
+            height: 90%;
+
+            li {
+                list-style: none;
+
+
+                .a-ravenclaw {
+                    color: gold;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        color: blue;
+                        text-decoration: underline;
+                        font-size: 20px;
+                    }
+                }
+
+                .a-slytherin {
+                    color: gold;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        color: green;
+                        text-decoration: underline;
+                        font-size: 20px;
+                    }
+                }
+
+                .a-hogwarts {
+                    color: gold;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                        font-size: 20px;
+                    }
+                }
+
+                .a-gryffindor {
+                    color: gold;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        color: red;
+                        text-decoration: underline;
+                        font-size: 20px;
+                    }
+                }
+
+                .a-hufflepuff {
+                    color: gold;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        color: yellow;
+                        text-decoration: underline;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        height: 1000px;
+
+        .hogwarts-info {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            height: 150px;
+            margin: 20px;
+
+            p {
+                color: gold;
+                text-align: justify;
+                margin: 10px;
+            }
+        }
+
+        .fundadores {
+            background-color: black;
+            text-align: center;
+            align-items: center;
+            width: 90%;
+            height: 700px;
+            display: flex;
+            justify-content: space-around;
+
+            .ss {
+                width: 20%;
+                height: 650px;
+                margin: 5px;
+
+                h3 {
+                    color: goldenrod;
+                }
+
+                img {
+                    height: 150px;
+                }
+
+                p {
+                    text-align: justify;
+                    color: goldenrod;
+                }
+
+                .rr-h3 {
+                    color: blue;
+                }
+
+                .ss-h3 {
+                    color: green;
+                }
+
+                .gg-h3 {
+                    color: red;
+                }
+
+                .hh-h3 {
+                    color: yellow;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: goldenrod;
+
+        p {
+            text-align: justify;
+            margin: 20px;
+
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin: 30px;
+
+            img {
+                height: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,216 @@
+body {
+  background-color: burlywood; }
+  body nav {
+    background-color: black;
+    border: gold 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px; }
+    body nav img {
+      margin-top: 25px;
+      height: 200px; }
+    body nav ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 90%;
+      height: 90%; }
+      body nav ul li {
+        list-style: none; }
+        body nav ul li .a-ravenclaw {
+          color: gold;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          body nav ul li .a-ravenclaw:hover {
+            color: blue;
+            text-decoration: underline;
+            font-size: 20px; }
+        body nav ul li .a-slytherin {
+          color: gold;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          body nav ul li .a-slytherin:hover {
+            color: green;
+            text-decoration: underline;
+            font-size: 20px; }
+        body nav ul li .a-hogwarts {
+          color: gold;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          body nav ul li .a-hogwarts:hover {
+            text-decoration: underline;
+            font-size: 20px; }
+        body nav ul li .a-gryffindor {
+          color: gold;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          body nav ul li .a-gryffindor:hover {
+            color: red;
+            text-decoration: underline;
+            font-size: 20px; }
+        body nav ul li .a-hufflepuff {
+          color: gold;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          body nav ul li .a-hufflepuff:hover {
+            color: yellow;
+            text-decoration: underline;
+            font-size: 20px; }
+  body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 1000px; }
+    body main .hogwarts-info {
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      height: 150px;
+      margin: 20px; }
+      body main .hogwarts-info p {
+        color: gold;
+        text-align: justify;
+        margin: 10px; }
+    body main .fundadores {
+      background-color: black;
+      text-align: center;
+      align-items: center;
+      width: 90%;
+      height: 700px;
+      display: flex;
+      justify-content: space-around; }
+      body main .fundadores .ss {
+        width: 20%;
+        height: 650px;
+        margin: 5px; }
+        body main .fundadores .ss h3 {
+          color: goldenrod; }
+        body main .fundadores .ss img {
+          height: 150px; }
+        body main .fundadores .ss p {
+          text-align: justify;
+          color: goldenrod; }
+        body main .fundadores .ss .rr-h3 {
+          color: blue; }
+        body main .fundadores .ss .ss-h3 {
+          color: green; }
+        body main .fundadores .ss .gg-h3 {
+          color: red; }
+        body main .fundadores .ss .hh-h3 {
+          color: yellow; }
+  body footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod; }
+    body footer p {
+      text-align: justify;
+      margin: 20px; }
+    body footer div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: 30px; }
+      body footer div img {
+        height: 40px; }
+
+.body-slytherin {
+  background-color: darkgreen; }
+  .body-slytherin nav {
+    background-color: green;
+    border: silver 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px; }
+    .body-slytherin nav img {
+      margin-top: 25px;
+      height: 200px; }
+    .body-slytherin nav ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 90%;
+      height: 90%; }
+      .body-slytherin nav ul li {
+        list-style: none; }
+        .body-slytherin nav ul li .a-ravenclaw {
+          color: silver;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-slytherin nav ul li .a-ravenclaw:hover {
+            color: blue;
+            text-decoration: underline;
+            font-size: 20px; }
+        .body-slytherin nav ul li .a-slytherin {
+          color: silver;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-slytherin nav ul li .a-slytherin:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            color: silver; }
+        .body-slytherin nav ul li .a-hogwarts {
+          color: silver;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-slytherin nav ul li .a-hogwarts:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            color: goldenrod; }
+        .body-slytherin nav ul li .a-gryffindor {
+          color: silver;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-slytherin nav ul li .a-gryffindor:hover {
+            color: red;
+            text-decoration: underline;
+            font-size: 20px; }
+        .body-slytherin nav ul li .a-hufflepuff {
+          color: silver;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-slytherin nav ul li .a-hufflepuff:hover {
+            color: yellow;
+            text-decoration: underline;
+            font-size: 20px; }
+  .body-slytherin main h2 {
+    font-size: 50px;
+    color: silver; }
+  .body-slytherin main .info-slytherin {
+    background-color: green;
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .body-slytherin main .info-slytherin .div-ss {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .body-slytherin main .info-slytherin .div-ss h3 {
+        color: silver; }
+      .body-slytherin main .info-slytherin .div-ss img {
+        height: 145px; }
+    .body-slytherin main .info-slytherin p {
+      width: 80%;
+      color: silver; }
