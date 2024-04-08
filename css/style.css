@@ -196,7 +196,7 @@ body {
     color: silver; }
   .body-slytherin main .info-slytherin {
     background-color: green;
-    height: 200px;
+    height: 250px;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -214,3 +214,28 @@ body {
     .body-slytherin main .info-slytherin p {
       width: 80%;
       color: silver; }
+  .body-slytherin main .casa-sly {
+    background-color: green;
+    height: 300px;
+    margin-top: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between; }
+    .body-slytherin main .casa-sly .p1-slytherin {
+      width: 30%;
+      display: flex;
+      align-items: center; }
+      .body-slytherin main .casa-sly .p1-slytherin p {
+        margin: 10px;
+        text-align: justify;
+        color: silver; }
+    .body-slytherin main .casa-sly .p2-slytherin {
+      display: flex;
+      align-items: center;
+      width: 60%; }
+      .body-slytherin main .casa-sly .p2-slytherin p {
+        margin: 10px;
+        text-align: justify;
+        color: silver; }
+      .body-slytherin main .casa-sly .p2-slytherin img {
+        height: 300px; }

@@ -103,7 +103,7 @@
 
         .info-slytherin {
             background-color: green;
-            height: 200px;
+            height: 250px;
             width: 90%;
             display: flex;
             justify-content: space-between;
@@ -115,7 +115,8 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                h3{
+
+                h3 {
                     color: silver;
                 }
 
@@ -123,9 +124,57 @@
                     height: 145px;
                 }
             }
-            p{
+
+            p {
                 width: 80%;
                 color: silver;
+            }
+        }
+
+        .casa-sly {
+            background-color: green;
+            height: 300px;
+            margin-top: 100px;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+
+            .p1-slytherin {
+                width: 30%;
+                display: flex;
+                align-items: center;
+
+                p {
+                    margin: 10px;
+                    text-align: justify;
+                    color: silver;
+                }
+            }
+
+            .p2-slytherin {
+                display: flex;
+                align-items: center;
+                width: 60%;
+
+                p {
+                    margin: 10px;
+                    text-align: justify;
+                    color: silver;
+                }
+
+                img {
+                    height: 300px;
+                }
+            }
+        }
+        .personajes-slytherin{
+            div{
+                h2{
+
+                }
+                img{
+                    
+                }
             }
         }
     }
