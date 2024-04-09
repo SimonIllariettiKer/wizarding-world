@@ -448,3 +448,158 @@ body {
       margin: 30px; }
       .body-ravenclaw .footer-ravenclaw div img {
         height: 40px; }
+
+.body-hufflepuff {
+  background-color: yellow; }
+  .body-hufflepuff .nav-hufflepuff {
+    background-color: #c9c90f;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px; }
+    .body-hufflepuff .nav-hufflepuff img {
+      margin-top: 25px;
+      height: 200px; }
+    .body-hufflepuff .nav-hufflepuff ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 90%;
+      height: 90%; }
+      .body-hufflepuff .nav-hufflepuff ul li {
+        list-style: none; }
+        .body-hufflepuff .nav-hufflepuff ul li .a-ravenclaw {
+          color: black;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-hufflepuff .nav-hufflepuff ul li .a-ravenclaw:hover {
+            color: blue;
+            text-decoration: underline;
+            font-size: 20px; }
+        .body-hufflepuff .nav-hufflepuff ul li .a-slytherin {
+          color: black;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-hufflepuff .nav-hufflepuff ul li .a-slytherin:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            color: darkgreen; }
+        .body-hufflepuff .nav-hufflepuff ul li .a-hogwarts {
+          color: black;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-hufflepuff .nav-hufflepuff ul li .a-hogwarts:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            color: goldenrod; }
+        .body-hufflepuff .nav-hufflepuff ul li .a-gryffindor {
+          color: black;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-hufflepuff .nav-hufflepuff ul li .a-gryffindor:hover {
+            color: red;
+            text-decoration: underline;
+            font-size: 20px; }
+        .body-hufflepuff .nav-hufflepuff ul li .a-hufflepuff {
+          color: black;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-hufflepuff .nav-hufflepuff ul li .a-hufflepuff:hover {
+            color: black;
+            text-decoration: underline;
+            font-size: 20px; }
+  .body-hufflepuff main {
+    height: 1000px; }
+    .body-hufflepuff main h2 {
+      font-size: 50px;
+      color: black; }
+    .body-hufflepuff main .info-hufflepuff {
+      background-color: #c9c90f;
+      height: 250px;
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 75px; }
+      .body-hufflepuff main .info-hufflepuff .div-ss {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .body-hufflepuff main .info-hufflepuff .div-ss h3 {
+          color: black; }
+        .body-hufflepuff main .info-hufflepuff .div-ss img {
+          height: 145px; }
+      .body-hufflepuff main .info-hufflepuff p {
+        width: 80%;
+        color: black; }
+    .body-hufflepuff main .casa-huf {
+      background-color: #c9c90f;
+      height: 300px;
+      margin-top: 100px;
+      width: 90%;
+      display: flex;
+      justify-content: space-between; }
+      .body-hufflepuff main .casa-huf .p1-hufflepuff {
+        width: 30%;
+        display: flex;
+        align-items: center; }
+        .body-hufflepuff main .casa-huf .p1-hufflepuff p {
+          margin: 10px;
+          text-align: justify;
+          color: black; }
+      .body-hufflepuff main .casa-huf .p2-hufflepuff {
+        display: flex;
+        align-items: center;
+        width: 60%; }
+        .body-hufflepuff main .casa-huf .p2-hufflepuff p {
+          margin: 10px;
+          text-align: justify;
+          color: black; }
+        .body-hufflepuff main .casa-huf .p2-hufflepuff img {
+          height: 300px; }
+    .body-hufflepuff main .personajes-hufflepuff {
+      margin-top: 30px;
+      width: 90%;
+      display: flex;
+      flex-direction: column; }
+      .body-hufflepuff main .personajes-hufflepuff .personajes-1 {
+        display: flex;
+        justify-content: space-around; }
+        .body-hufflepuff main .personajes-hufflepuff .personajes-1 h2 {
+          color: black;
+          font-size: 13px; }
+        .body-hufflepuff main .personajes-hufflepuff .personajes-1 img {
+          height: 150px; }
+        .body-hufflepuff main .personajes-hufflepuff .personajes-1 div {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content: center; }
+  .body-hufflepuff .footer-hufflepuff {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c9c90f;
+    margin-top: 75px; }
+    .body-hufflepuff .footer-hufflepuff p {
+      text-align: justify;
+      margin: 20px;
+      color: black; }
+    .body-hufflepuff .footer-hufflepuff div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: 30px; }
+      .body-hufflepuff .footer-hufflepuff div img {
+        height: 40px; }
