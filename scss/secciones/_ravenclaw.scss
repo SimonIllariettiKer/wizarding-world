@@ -1,0 +1,229 @@
+.body-ravenclaw {
+    background-color: blue;
+
+    .nav-ravenclaw{
+        background-color: navy;
+        border: solid 1px goldenrod;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+
+        img {
+            margin-top: 25px;
+            height: 200px;
+
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 90%;
+            height: 90%;
+
+            li {
+                list-style: none;
+
+
+                .a-ravenclaw {
+                    color: goldenrod;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        color: goldenrod;
+                        text-decoration: underline;
+                        font-size: 20px;
+                    }
+                }
+
+                .a-ravenclaw {
+                    color: goldenrod;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                        font-size: 20px;
+                        color: green;
+                    }
+                }
+
+                .a-hogwarts {
+                    color: goldenrod;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                        font-size: 20px;
+                        color: goldenrod;
+                    }
+                }
+
+                .a-gryffindor {
+                    color: goldenrod;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        color: red;
+                        text-decoration: underline;
+                        font-size: 20px;
+                    }
+                }
+
+                .a-hufflepuff {
+                    color: goldenrod;
+                    text-decoration: none;
+                    font-size: 16px;
+                    list-style: none;
+
+                    &:hover {
+                        color: yellow;
+                        text-decoration: underline;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-ravenclaw {
+        height: 1000px;
+        h2 {
+            font-size: 50px;
+            color: goldenrod;
+        }
+
+        .info-ravenclaw {
+            background-color: navy;
+            height: 250px;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 75px;
+
+            .div-rr {
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    color: goldenrod;
+                }
+
+                img {
+                    height: 145px;
+                }
+            }
+
+            p {
+                width: 80%;
+                color: goldenrod;
+                text-align: justify;
+            }
+        }
+
+        .casa-rav {
+            background-color: navy;
+            height: 300px;
+            margin-top: 100px;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+
+            .p1-ravenclaw {
+                width: 30%;
+                display: flex;
+                align-items: center;
+
+                p {
+                    margin: 10px;
+                    text-align: justify;
+                    color: goldenrod;
+                }
+            }
+
+            .p2-ravenclaw {
+                display: flex;
+                align-items: center;
+                width: 60%;
+
+                p {
+                    margin: 10px;
+                    text-align: justify;
+                    color: goldenrod;
+                }
+
+                img {
+                    height: 300px;
+                }
+            }
+        }
+
+        .personajes-ravenclaw {
+            margin-top: 30px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+
+            .personajes-1 {
+                display: flex;
+                justify-content: space-around;
+
+                h2 {
+                    color: goldenrod;
+                    font-size: 13px;
+                }
+
+                img {
+                    height: 150px;
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .footer-ravenclaw {
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: navy;
+        margin-top: 75px;
+
+        p {
+            text-align: justify;
+            margin: 20px;
+            color: goldenrod;
+
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin: 30px;
+
+            img {
+                height: 40px;
+            }
+        }
+    }
+}

@@ -292,3 +292,159 @@ body {
       margin: 30px; }
       .body-slytherin .footer-slytherin div img {
         height: 40px; }
+
+.body-ravenclaw {
+  background-color: blue; }
+  .body-ravenclaw .nav-ravenclaw {
+    background-color: navy;
+    border: solid 1px goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px; }
+    .body-ravenclaw .nav-ravenclaw img {
+      margin-top: 25px;
+      height: 200px; }
+    .body-ravenclaw .nav-ravenclaw ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 90%;
+      height: 90%; }
+      .body-ravenclaw .nav-ravenclaw ul li {
+        list-style: none; }
+        .body-ravenclaw .nav-ravenclaw ul li .a-ravenclaw {
+          color: goldenrod;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-ravenclaw .nav-ravenclaw ul li .a-ravenclaw:hover {
+            color: goldenrod;
+            text-decoration: underline;
+            font-size: 20px; }
+        .body-ravenclaw .nav-ravenclaw ul li .a-ravenclaw {
+          color: goldenrod;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-ravenclaw .nav-ravenclaw ul li .a-ravenclaw:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            color: green; }
+        .body-ravenclaw .nav-ravenclaw ul li .a-hogwarts {
+          color: goldenrod;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-ravenclaw .nav-ravenclaw ul li .a-hogwarts:hover {
+            text-decoration: underline;
+            font-size: 20px;
+            color: goldenrod; }
+        .body-ravenclaw .nav-ravenclaw ul li .a-gryffindor {
+          color: goldenrod;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-ravenclaw .nav-ravenclaw ul li .a-gryffindor:hover {
+            color: red;
+            text-decoration: underline;
+            font-size: 20px; }
+        .body-ravenclaw .nav-ravenclaw ul li .a-hufflepuff {
+          color: goldenrod;
+          text-decoration: none;
+          font-size: 16px;
+          list-style: none; }
+          .body-ravenclaw .nav-ravenclaw ul li .a-hufflepuff:hover {
+            color: yellow;
+            text-decoration: underline;
+            font-size: 20px; }
+  .body-ravenclaw .main-ravenclaw {
+    height: 1000px; }
+    .body-ravenclaw .main-ravenclaw h2 {
+      font-size: 50px;
+      color: goldenrod; }
+    .body-ravenclaw .main-ravenclaw .info-ravenclaw {
+      background-color: navy;
+      height: 250px;
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 75px; }
+      .body-ravenclaw .main-ravenclaw .info-ravenclaw .div-rr {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .body-ravenclaw .main-ravenclaw .info-ravenclaw .div-rr h3 {
+          color: goldenrod; }
+        .body-ravenclaw .main-ravenclaw .info-ravenclaw .div-rr img {
+          height: 145px; }
+      .body-ravenclaw .main-ravenclaw .info-ravenclaw p {
+        width: 80%;
+        color: goldenrod;
+        text-align: justify; }
+    .body-ravenclaw .main-ravenclaw .casa-rav {
+      background-color: navy;
+      height: 300px;
+      margin-top: 100px;
+      width: 90%;
+      display: flex;
+      justify-content: space-between; }
+      .body-ravenclaw .main-ravenclaw .casa-rav .p1-ravenclaw {
+        width: 30%;
+        display: flex;
+        align-items: center; }
+        .body-ravenclaw .main-ravenclaw .casa-rav .p1-ravenclaw p {
+          margin: 10px;
+          text-align: justify;
+          color: goldenrod; }
+      .body-ravenclaw .main-ravenclaw .casa-rav .p2-ravenclaw {
+        display: flex;
+        align-items: center;
+        width: 60%; }
+        .body-ravenclaw .main-ravenclaw .casa-rav .p2-ravenclaw p {
+          margin: 10px;
+          text-align: justify;
+          color: goldenrod; }
+        .body-ravenclaw .main-ravenclaw .casa-rav .p2-ravenclaw img {
+          height: 300px; }
+    .body-ravenclaw .main-ravenclaw .personajes-ravenclaw {
+      margin-top: 30px;
+      width: 90%;
+      display: flex;
+      flex-direction: column; }
+      .body-ravenclaw .main-ravenclaw .personajes-ravenclaw .personajes-1 {
+        display: flex;
+        justify-content: space-around; }
+        .body-ravenclaw .main-ravenclaw .personajes-ravenclaw .personajes-1 h2 {
+          color: goldenrod;
+          font-size: 13px; }
+        .body-ravenclaw .main-ravenclaw .personajes-ravenclaw .personajes-1 img {
+          height: 150px; }
+        .body-ravenclaw .main-ravenclaw .personajes-ravenclaw .personajes-1 div {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content: center; }
+  .body-ravenclaw .footer-ravenclaw {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    margin-top: 75px; }
+    .body-ravenclaw .footer-ravenclaw p {
+      text-align: justify;
+      margin: 20px;
+      color: goldenrod; }
+    .body-ravenclaw .footer-ravenclaw div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: 30px; }
+      .body-ravenclaw .footer-ravenclaw div img {
+        height: 40px; }
